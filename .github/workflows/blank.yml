@@ -23,6 +23,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - run: echo "${{ env.APP_ENV }}"
-      - run: echo "${ github.event_name }}"
+      - run: echo "${{ github.event_name }}"
       - run: echo "${{ github.ref }} and ${{ github.repository }}"
     
